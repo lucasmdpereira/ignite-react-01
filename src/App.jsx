@@ -1,8 +1,8 @@
 import { Header } from './components/Header'
-import { Post } from './Post'
+import { Post } from './components/Post'
+import { Sidebar } from './components/Sidebar'
 import './global.css'
 import styles from './App.module.css'
-import { Sidebar } from './components/Sidebar'
 
 function App() {
   return (
@@ -20,8 +20,6 @@ function App() {
         author="Gabrien Buzzi" 
         content="Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, distinctio sunt? Aspernatur suscipit nisi facere tenetur soluta, laboriosam temporibus quasi ea quod blanditiis commodi sapiente deserunt illo explicabo numquam odio! "
       />
-      <Post />
-      <Post />
         </main>
       </div>
     </div>
