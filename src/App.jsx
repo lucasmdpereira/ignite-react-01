@@ -15,10 +15,10 @@ const post = [
     },
     content: [
       { type: 'paragraph', content: 'Fala galera 👋' },
-      { type: 'paragraph', content: 'Acabei de subir mais um projeto no meu portifa. É um projeto que fiz no NLW Return, evento da Rocketseat. O nome do projeto é DoctorCare 🚀' },
+      { type: 'paragraph', content: 'Mussum Ipsum, cacilds vidis litro abertis. Casamentiss faiz malandris se pirulitá. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.' },
       { type: 'link', content: 'jane.design/doctorcare' },
     ],
-    publishedAt: new Date('2022-05-03 20:00:00'),
+    publishedAt: new Date('2022-08-08 14:00:00'),
   },
   {
     id: 2,
@@ -29,10 +29,10 @@ const post = [
     },
     content: [
       { type: 'paragraph', content: 'Fala galera 👋' },
-      { type: 'paragraph', content: 'Acabei de subir mais um projeto no meu portifa. É um projeto que fiz no NLW Return, evento da Rocketseat. O nome do projeto é DoctorCare 🚀' },
+      { type: 'paragraph', content: 'Mussum Ipsum, cacilds vidis litro abertis. Admodum accumsan disputationi eu sit. Vide electram sadipscing et per. Per aumento de cachacis, eu reclamis. Paisis, filhis, espiritis santis. Cevadis im ampola pa arma uma pindureta.'},
       { type: 'link', content: 'jane.design/doctorcare' },
     ],
-    publishedAt: new Date('2022-05-10 20:00:00'),
+    publishedAt: new Date('2022-08-08 12:00:00'),
   },
 ]
 
