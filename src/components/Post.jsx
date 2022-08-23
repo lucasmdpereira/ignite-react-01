@@ -4,6 +4,7 @@ import { useState } from 'react';
 import { Avatar } from './Avatar';
 import { Comment } from './Comment';
 import styles from './Post.module.css';
+
 export function Post({ author, publishedAt, content }) {
   const [comments, setComments] = useState([
     'Post muito bacana, hein?!'
@@ -16,6 +17,7 @@ export function Post({ author, publishedAt, content }) {
     locale: ptBR,
     addSuffix: true
   });
+
   function handleCrateNewComment() {
     event.preventDefault()
     setComments([...comments, newCommentText]);
@@ -25,8 +27,11 @@ export function Post({ author, publishedAt, content }) {
     setNewCommentText(event.target.value);
   }
 
-  function deleteComment(comment) {
-    console.log(`Deletar comentário ${comment}`)
+  function deleteComment(commentToDelete) {
+    const commentsWithoutDeletedOne = comments.filter(comment => {
+      return comment != commentToDelete 
+    })
+    setComments(commentsWithoutDeletedOne);
   }
 
   return (
